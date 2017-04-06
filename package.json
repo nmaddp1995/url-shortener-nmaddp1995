@@ -1,11 +1,27 @@
 {
   "name": "url-shortener-nmaddp1995",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmaddp1995/url-shortener-nmaddp1995.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nmaddp1995/url-shortener-nmaddp1995/issues"
+  },
+  "homepage": "https://github.com/nmaddp1995/url-shortener-nmaddp1995#readme",
+  "description": ""
 }
